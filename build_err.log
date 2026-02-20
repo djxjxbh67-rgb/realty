@@ -1,0 +1,22 @@
+
+> alexey-ivanov---commercial-real-estate-broker-frontend@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 29 modules transformed.
+[31m✗[39m Build failed in 224ms
+[31merror during build:
+[31mCould not resolve "../assets/images/custom/warehouse.jpg" from "components/Cases.tsx"[31m
+file: [36mC:/Users/Gigabyte/Documents/автоматиз/expert-realty/frontend/components/Cases.tsx[31m
+    at getRollupError (file:///C:/Users/Gigabyte/Documents/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7/expert-realty/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///C:/Users/Gigabyte/Documents/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7/expert-realty/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///C:/Users/Gigabyte/Documents/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7/expert-realty/node_modules/rollup/dist/es/shared/node-entry.js:21687:24)
+    at file:///C:/Users/Gigabyte/Documents/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7/expert-realty/node_modules/rollup/dist/es/shared/node-entry.js:21647:26[39m
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path C:\Users\Gigabyte\Documents\автоматиз\expert-realty\frontend
+npm error workspace alexey-ivanov---commercial-real-estate-broker-frontend@0.0.0
+npm error location C:\Users\Gigabyte\Documents\автоматиз\expert-realty\frontend
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c vite build

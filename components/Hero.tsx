@@ -2,6 +2,8 @@ import React from 'react';
 import { ArrowRight, Send, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import brokerImg from '../src/assets/images/custom/broker.jpg';
+
 const Hero: React.FC = () => {
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-light">
@@ -52,7 +54,7 @@ const Hero: React.FC = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-[3/4] group">
               <img
-                src="/images/custom/broker.jpg"
+                src={brokerImg}
                 alt="Алексей Иванов - Брокер по недвижимости"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
